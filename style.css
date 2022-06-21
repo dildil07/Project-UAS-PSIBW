@@ -1,0 +1,327 @@
+body {
+    font-family: Tempus Sans ITC, sans-serif;
+    background-color: #e7f0f6;
+    background-image: url(background.jpg);
+    
+  }
+
+.navtop {
+  background-color: 	#000080;
+  height: 80px;
+  width: 100%;
+  border: 0;
+}
+
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+.navtop div h1,
+.navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navtop div h1 {
+  flex: 1;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: normal;
+}
+
+.navtop div a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navtop div a i {
+  padding: 2px 8px 0 0;
+}
+
+.navtop div a:hover {
+  color: #eaebed;
+}
+
+.content {
+
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #D3D3D3 ;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 20px 20px;
+  font-size: 22px;
+  border-bottom: 0px solid #e0e0e3;
+  color: #4a536e;
+}
+
+.content h3 {
+  margin: 0;
+  padding: 20px 20px;
+  font-size: 22px;
+  border-bottom: 0px solid #e0e0e3;
+  color: #4a536e;
+}
+
+.content td {
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 15px;
+  border-bottom: 0px solid #e0e0e3;
+  color: black;
+}
+   
+.content td button {
+background-color: #000080; 
+border: none;
+color: white;
+padding: 8px 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer; }
+
+.content td button:hover {
+   background-color: black;
+  color: white;
+  border: 2px solid #e7e7e7;
+}
+
+.content>p,
+.content>div {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+  padding: 25px;
+  background-color: #fff;
+
+}
+
+.content>p table td,
+.content>div table td {
+  padding: 5px;
+}
+
+.content>p table td:first-child,
+.content>div table td:first-child {
+  font-weight: bold;
+  color: #4a536e;
+  padding-right: 15px;
+}
+
+.content>div p {
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+
+.content>button {
+background-color: #000080; 
+border: none;
+color: white;
+padding: 6px 14px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 2px 1px;
+transition-duration: 0.4s;
+cursor: pointer;
+margin-left:15px }
+
+.button1 {
+  width:auto;
+}
+
+.button1:hover {
+  background-color: black;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button1 a {
+   color: white;
+
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+   
+  }
+
+  .container-register {
+    padding: 16px;
+    background-color: white;
+   
+  }
+
+  
+
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 16%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: left;
+  }
+
+  input[type=text], input[type=password] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+  }
+  
+  span.password {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+
+.box {
+  width:50%;
+}
+
+  }
+
+  
+
+  
+  
+  
+
